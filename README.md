@@ -24,7 +24,6 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 ![Determine the p-value and the r-squared value for the linear regression model](https://user-images.githubusercontent.com/115379848/232673137-fc7e45b6-af5f-4344-893a-505aaf842db6.png)
 
 
-### Summary of the findings:
 
 #### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
@@ -48,19 +47,37 @@ Our model will prodict MPG correlation to other factor 70% of the time.
 ## Part 2: Create Visualizations for the Trip Analysis
 
 
+## Summary Statistics on Suspension Coils,lot_summary 
+
 ### Read in csv file
+
 SuspCoil <- read.csv(file="Suspension_Coil.csv", check.names=F, stringsAsFactors = F)
 
 ### Write an RScript that creates a total_summary dataframe using the summarize() function to get the mean, median, variance, and standard deviation
+
 #of the suspension coil’s PSI column
 total_summary <- SuspCoil %>% summarize(Mean=mean(PSI),Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups = 'keep')
 
 
 
+
+<img width="343" alt="Total_summary" src="https://user-images.githubusercontent.com/115379848/232675306-ef839424-8f59-4e5e-b65c-6060157cbcc7.png">
+
+
+
+
 ### Write an RScript that creates a lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation
 
+<img width="242" alt="lot_summary" src="https://user-images.githubusercontent.com/115379848/232675291-c20c84ae-d01a-4a95-9224-675cb87851a7.png">
 
 
+
+
+
+
+## Part 3: T-Tests on Suspension Coils
+
+## T-Tests on Suspension Coils
 
 ### of the suspension coil’s PSI column.
 lot_summary <- SuspCoil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups = 'keep')
