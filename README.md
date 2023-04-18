@@ -127,3 +127,30 @@ t.test(subset(SuspCoil, Manufacturing_Lot=="Lot3")$PSI, mu=1500)
 
 
 ![T Test for lot 3](https://user-images.githubusercontent.com/115379848/232677422-331f3bda-3ccc-40db-9633-c9cbdd4e1e29.png)
+
+
+Lot 1 has variance of 0.98 and Lot 2 has 7.47 and are within the 100 PSI variance requirement;
+However, it is Lot 3 that is showing alot bigger variance in performance and consistency, with a variance of 170.29. It is Lot 3 that is disproportionately causing the variance at the full lot level.
+
+## Part 4: Design a Study Comparing the MechaCar to the Competition
+
+## Study Design: MechaCar vs Competition
+
+
+
+### What metric or metrics are you going to test?
+
+
+
+### What is the null hypothesis or alternative hypothesis?
+
+
+
+### What statistical test would you use to test the hypothesis? And why?
+
+
+
+### What data is needed to run the statistical test?
+
+
+
