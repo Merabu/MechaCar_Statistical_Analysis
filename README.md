@@ -141,8 +141,19 @@ However, it is Lot 3 that is showing alot bigger variance in performance and con
 ### What metric or metrics are you going to test?
 
 
+PG (Gasoline Efficiency): Independent Variable
+Safety Feature Rating: Independent Variable
+Engine (Electric, Hybrid, Gasoline / Conventional): Independent Variable
+Resale Value: Independent Variable
+Average Annual Cost of ownership (Maintenance): Independent Variable
+Current Price (Selling): Dependent Variable
+Drive Package : Independent Variable
 
 ### What is the null hypothesis or alternative hypothesis?
+
+
+null hypothesis : According to the genre, Mechacar is correctly priced 
+
 
 
 
@@ -150,7 +161,11 @@ However, it is Lot 3 that is showing alot bigger variance in performance and con
 
 
 
+
+
 ### What data is needed to run the statistical test?
+
+
 
 
 
