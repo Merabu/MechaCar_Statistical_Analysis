@@ -85,11 +85,45 @@ lot_summary <- SuspCoil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(
 ### T Test all lots
 t.test(SuspCoil$PSI, mu=1500)
 
+![T Test all lots](https://user-images.githubusercontent.com/115379848/232677376-9a1239ea-f4a9-4938-a4ef-3caccfa299b9.png)
+
+
+
+
+
+
 ### T Test for lot 1
 t.test(subset(SuspCoil, Manufacturing_Lot=="Lot1")$PSI, mu=1500) 
+
+
+
+
+
+![T Test for lot 1](https://user-images.githubusercontent.com/115379848/232677383-d2967c38-683c-4a87-91cf-52a6496616ee.png)
+
+
+
+
+
 
 ### T Test for lot 2
 t.test(subset(SuspCoil, Manufacturing_Lot=="Lot2")$PSI, mu=1500)
 
+
+
+
+
+
+![#T Test for lot 2](https://user-images.githubusercontent.com/115379848/232677411-4c844838-bb75-4cb7-a111-b2571805c57a.png)
+
+
+
+
+
+
+
 ### T test for lot 3
 t.test(subset(SuspCoil, Manufacturing_Lot=="Lot3")$PSI, mu=1500)
+
+
+![T Test for lot 3](https://user-images.githubusercontent.com/115379848/232677422-331f3bda-3ccc-40db-9633-c9cbdd4e1e29.png)
