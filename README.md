@@ -152,18 +152,21 @@ Drive Package : Independent Variable
 ### What is the null hypothesis or alternative hypothesis?
 
 
-null hypothesis : According to the genre, Mechacar is correctly priced 
+null hypothesis (HO) : According to the genre, Mechacar is correctly priced 
+
+Alternative Hypothesis (Ha) : MecharCar is NOT price correctly based on performance of key factors for its genre.
 
 
 
-
-### What statistical test would you use to test the hypothesis? And why?
-
-
-
-
-
+### What statistical test would you use to test the hypothesis? And why? // 
 ### What data is needed to run the statistical test?
+
+
+
+I would used a multiple linear regression to determine the factor that have the highest correlation/predictability with the dependent variable; Which combination has the greatest impact on price.
+
+
+
 
 
 
